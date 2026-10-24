@@ -9,5 +9,5 @@ platform_entries:
     bin: releases/charge-station-v1.0.11-merged.bin
     cover: releases/cover-1280x720-cardputer.png
     project_link: "https://github.com/andjiang0083/cardputer-charge-station"
-    status: draft        # 尚未提交商店，等用户确认
+    readback: 2026-10-24 PENDING vid=2113817650457288706  # 已提交审核，未上线
     install_note: 商店刷写=整片覆盖（清掉原有 Launcher/配置）；想保留用 GitHub Release 的 app-only bin 走 M5Launcher
