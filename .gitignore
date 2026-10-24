@@ -1,0 +1,6 @@
+.pio/
+.vscode/
+__pycache__/
+*.factory.bin
+docs/evidence-nvs-*.bin
+.DS_Store
