@@ -1,0 +1,13 @@
+# charge-station — M5Burner 发布清单（发布前由 tools/check_merged.py 校验固件结构）
+# bin 必须是真 merged（bootloader + 分区表 + app）：M5Burner 硬编码烧 0x0，app-only 必黑屏。
+project: charge-station
+platform_entries:
+  - name: Charge Station
+    device: Cardputer
+    category: Utility
+    version: "1.0.11"
+    bin: releases/charge-station-v1.0.11-merged.bin
+    cover: releases/cover-1280x720-cardputer.png
+    project_link: "https://github.com/andjiang0083/cardputer-charge-station"
+    status: draft        # 尚未提交商店，等用户确认
+    install_note: 商店刷写=整片覆盖（清掉原有 Launcher/配置）；想保留用 GitHub Release 的 app-only bin 走 M5Launcher

@@ -1,0 +1,117 @@
+{
+ "entry": "Charge Station",
+ "cover": "releases/cover-1280x720-cardputer.png",
+ "canvas": [
+  1280,
+  720
+ ],
+ "layout": "data",
+ "hero": {
+  "kind": "photo",
+  "path": "docs/images/charge-station-cardputer.jpg"
+ },
+ "texts": [
+  {
+   "s": "CHARGE STATION",
+   "kind": "title",
+   "bbox": [
+    56,
+    129,
+    614,
+    176
+   ]
+  },
+  {
+   "s": "插上电，到底在不在充？",
+   "kind": "sub",
+   "bbox": [
+    56,
+    212,
+    518,
+    255
+   ]
+  },
+  {
+   "s": "Know if it is really charging — in one color.",
+   "kind": "sub_en",
+   "bbox": [
+    56,
+    273,
+    534,
+    296
+   ]
+  },
+  {
+   "s": "正在充 · CHARGING",
+   "kind": "bullet",
+   "bbox": [
+    86,
+    330,
+    361,
+    357
+   ]
+  },
+  {
+   "s": "已充满 · FULL",
+   "kind": "bullet",
+   "bbox": [
+    86,
+    382,
+    282,
+    409
+   ]
+  },
+  {
+   "s": "没在充 · NO CHARGE",
+   "kind": "bullet",
+   "bbox": [
+    86,
+    434,
+    381,
+    461
+   ]
+  },
+  {
+   "s": "灭屏 · 降频 · 不启射频，电流全给电池",
+   "kind": "bullet",
+   "bbox": [
+    56,
+    497,
+    496,
+    522
+   ]
+  },
+  {
+   "s": "Dark screen · low clock · no radio",
+   "kind": "bullet",
+   "bbox": [
+    56,
+    532,
+    378,
+    548
+   ]
+  },
+  {
+   "s": "24 h log",
+   "kind": "body",
+   "bbox": [
+    756,
+    438,
+    824,
+    455
+   ]
+  },
+  {
+   "s": "整夜实测曲线 · 每 10 分钟一点",
+   "kind": "body",
+   "bbox": [
+    862,
+    434,
+    1082,
+    451
+   ]
+  }
+ ],
+ "generator": "tools/make-cover.py",
+ "generated": "2026-10-24T09:25:27"
+}
